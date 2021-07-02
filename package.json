@@ -1,17 +1,22 @@
+
 {
 	"name": "css-dictionary",
-	"displayName": "CSS Dictionary",
+	"displayName": "CSS Sort",
 	"description": "An extension to arrange the CSS classes in a css file in alphabetical order",
-	"version": "0.0.1",
+	"version": "1.0.1",
+	"publisher": "waleedj1699",
+	"repository": "https://github.com/waleedj99/css-dictionary",
+	"icon": "images/icon.png",
 	"engines": {
 		"vscode": "^1.57.0"
 	},
 	"categories": [
-		"Other"
+		"Other","Formatters"
 	],
 	"activationEvents": [
 		"*"
 	],
+	"keywords": ["WebDev,CSS,Web,Sort,CSS Sort"],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
@@ -47,5 +52,6 @@
 		"ts-loader": "^9.2.2",
 		"webpack": "^5.38.1",
 		"webpack-cli": "^4.7.0"
-	}
+	},
+	"author": {"name":"Waleed Jameel Hyderi"}
 }

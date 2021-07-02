@@ -1,4 +1,4 @@
-# css-dictionary
+# CSS Sort
 
 An extesnion which can be used to sort CSS classes in a CSS file , making it easier to search for specific classes in a large file.
 
