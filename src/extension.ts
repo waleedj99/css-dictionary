@@ -105,10 +105,10 @@ export function activate(context: vscode.ExtensionContext) {
 				}
 
 			} else {
-				vscode.window.showInformationMessage("Sorting Failed!Classes were not selected properly");
+				vscode.window.showErrorMessage("Sorting Failed!Classes were not selected properly");
 			}
 		} else {
-			vscode.window.showInformationMessage("Sorting only works on CSS Files");
+			vscode.window.showErrorMessage("Sorting only works on CSS Files");
 		}
 
 
@@ -116,7 +116,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 	context.subscriptions.push(disposable);
 
-	myStatusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 100);
+	myStatusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
 	myStatusBarItem.command = myCommandId;
 	context.subscriptions.push(myStatusBarItem);
 
