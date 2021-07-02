@@ -4,6 +4,8 @@ An extesnion which can be used to sort CSS classes in a CSS file , making it eas
 
 ## Features
 
+- `CTRL+SHFT+P` to open the command pallet and then enter `CSS Sort` command to sort the selected classes
+
 - Click on the button in Status bar to execute the command to sort the classes , in case no class is selected all the classes will be sorted by default.
 
 ![StatusBTNDemo](https://user-images.githubusercontent.com/19192316/124244404-8755cd00-db3c-11eb-999d-8158fa4048bb.gif)
