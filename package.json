@@ -1,7 +1,7 @@
 {
 	"name": "css-dictionary",
 	"displayName": "CSS Dictionary",
-	"description": "An extension to arrange the CSS classes in a file in alphabetical order",
+	"description": "An extension to arrange the CSS classes in a css file in alphabetical order",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.57.0"
